@@ -45,25 +45,25 @@ void init_target_properties()
 
     std::string bootloader = property_get("ro.bootloader");
 
-    if (bootloader.find("T530") == 0) {
+    if (bootloader.find("T330") == 0) {
         /* milletwifi */
-        property_set("ro.build.fingerprint", "samsung/milletwifixx/milletwifi:5.0.2/LRX22G/T530XXU1BOD8:user/release-keys");
-        property_set("ro.build.description", "milletwifixx-user 5.0.2 LRX22G T530XXU1BOD8 release-keys");
-        property_set("ro.product.model", "SM-T530");
+        property_set("ro.build.fingerprint", "samsung/milletwifixx/milletwifi:5.0.2/LRX22G/T331XXU1BOD8:user/release-keys");
+        property_set("ro.build.description", "milletwifixx-user 5.0.2 LRX22G T330XXU1BOD8 release-keys");
+        property_set("ro.product.model", "SM-T330");
         property_set("ro.product.device", "milletwifi");
-    } else if (bootloader.find("T531") == 0) {
+    } else if (bootloader.find("T335") == 0) {
         /* millet3g */
-        property_set("ro.build.fingerprint", "samsung/millet3gxx/millet3g:5.0.2/LRX22G/T531XXU1BOD8:user/release-keys");
-        property_set("ro.build.description", "millet3gxx-user 5.0.2 LRX22G T531XXU1BOD8 release-keys");
-        property_set("ro.product.model", "SM-T531");
+        property_set("ro.build.fingerprint", "samsung/millet3gxx/millet3g:5.0.2/LRX22G/T331XXU1BOD8:user/release-keys");
+        property_set("ro.build.description", "millet3gxx-user 5.0.2 LRX22G T331XXU1BOD8 release-keys");
+        property_set("ro.product.model", "SM-T331");
         property_set("ro.product.device", "millet3g");
-    } else if (bootloader.find("T535") == 0) {
+    } else if (bootloader.find("T335") == 0) {
         /* milletlte */
-        property_set("ro.build.fingerprint", "samsung/milletltexx/milletlte:5.0.2/LRX22G/T535XXU1BOD8:user/release-keys");
-        property_set("ro.build.description", "milletltexx-user 5.0.2 LRX22G T535XXU1BOD8 release-keys");
-        property_set("ro.product.model", "SM-T535");
+        property_set("ro.build.fingerprint", "samsung/milletltexx/milletlte:5.0.2/LRX22G/T335XXU1BOD8:user/release-keys");
+        property_set("ro.build.description", "milletltexx-user 5.0.2 LRX22G T335XXU1BOD8 release-keys");
+        property_set("ro.product.model", "SM-T335");
         property_set("ro.product.device", "milletlte");
-    } 
+    }
 
     std::string device = property_get("ro.product.device");
     INFO("Found bootloader id %s setting build properties for %s device\n", bootloader.c_str(), device.c_str());
