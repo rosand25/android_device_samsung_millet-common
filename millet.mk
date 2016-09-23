@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Proprietary files
-$(call inherit-product, vendor/samsung/matisse-common/matisse-common-vendor.mk)
+$(call inherit-product, vendor/samsung/millet-common/millet-common-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

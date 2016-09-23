@@ -46,23 +46,23 @@ void init_target_properties()
     std::string bootloader = property_get("ro.bootloader");
 
     if (bootloader.find("T530") == 0) {
-        /* matissewifi */
-        property_set("ro.build.fingerprint", "samsung/matissewifixx/matissewifi:5.0.2/LRX22G/T530XXU1BOD8:user/release-keys");
-        property_set("ro.build.description", "matissewifixx-user 5.0.2 LRX22G T530XXU1BOD8 release-keys");
+        /* milletwifi */
+        property_set("ro.build.fingerprint", "samsung/milletwifixx/milletwifi:5.0.2/LRX22G/T530XXU1BOD8:user/release-keys");
+        property_set("ro.build.description", "milletwifixx-user 5.0.2 LRX22G T530XXU1BOD8 release-keys");
         property_set("ro.product.model", "SM-T530");
-        property_set("ro.product.device", "matissewifi");
+        property_set("ro.product.device", "milletwifi");
     } else if (bootloader.find("T531") == 0) {
-        /* matisse3g */
-        property_set("ro.build.fingerprint", "samsung/matisse3gxx/matisse3g:5.0.2/LRX22G/T531XXU1BOD8:user/release-keys");
-        property_set("ro.build.description", "matisse3gxx-user 5.0.2 LRX22G T531XXU1BOD8 release-keys");
+        /* millet3g */
+        property_set("ro.build.fingerprint", "samsung/millet3gxx/millet3g:5.0.2/LRX22G/T531XXU1BOD8:user/release-keys");
+        property_set("ro.build.description", "millet3gxx-user 5.0.2 LRX22G T531XXU1BOD8 release-keys");
         property_set("ro.product.model", "SM-T531");
-        property_set("ro.product.device", "matisse3g");
+        property_set("ro.product.device", "millet3g");
     } else if (bootloader.find("T535") == 0) {
-        /* matisselte */
-        property_set("ro.build.fingerprint", "samsung/matisseltexx/matisselte:5.0.2/LRX22G/T535XXU1BOD8:user/release-keys");
-        property_set("ro.build.description", "matisseltexx-user 5.0.2 LRX22G T535XXU1BOD8 release-keys");
+        /* milletlte */
+        property_set("ro.build.fingerprint", "samsung/milletltexx/milletlte:5.0.2/LRX22G/T535XXU1BOD8:user/release-keys");
+        property_set("ro.build.description", "milletltexx-user 5.0.2 LRX22G T535XXU1BOD8 release-keys");
         property_set("ro.product.model", "SM-T535");
-        property_set("ro.product.device", "matisselte");
+        property_set("ro.product.device", "milletlte");
     } 
 
     std::string device = property_get("ro.product.device");

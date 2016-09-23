@@ -15,13 +15,13 @@
 # Inherit from msm8226-common
 -include device/samsung/msm8226-common/BoardConfigCommon.mk
 
-SUB_DEVICE_PATH := device/samsung/matisse-common
+SUB_DEVICE_PATH := device/samsung/millet-common
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(SUB_DEVICE_PATH)/bluetooth
 
 # Init
-TARGET_LIBINIT_MSM8226_DEFINES_FILE := device/samsung/matisse-common/init/init_matisse.cpp
+TARGET_LIBINIT_MSM8226_DEFINES_FILE := device/samsung/millet-common/init/init_millet.cpp
 TARGET_UNIFIED_DEVICE := true
 
 # Kernel

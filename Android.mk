@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter matissewifi matisse3g matisselte,$(TARGET_DEVICE)),)
+ifneq ($(filter milletwifi millet3g milletlte,$(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

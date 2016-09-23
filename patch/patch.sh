@@ -17,7 +17,7 @@ if [ "$key" = 'p' ]; then
 echo -e ""
 echo -e ${CL_RED}"Applying patches"${CL_RST}
 echo -e ${CL_RST}"----------------"${CL_RST}
-patches_path="$build_root/device/samsung/matisse-common/patch/"
+patches_path="$build_root/device/samsung/millet-common/patch/"
 pushd "$patches_path" > /dev/null
 unset repos
 for patch in `find -type f -name '*.patch'|cut -d / -f 2-|sort`; do

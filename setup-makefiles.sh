@@ -34,7 +34,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" true
 
 # Copyright headers and common guards
-write_headers "matisse3g matisselte matissewifi"
+write_headers "millet3g milletlte milletwifi"
 
 write_makefiles "$MY_DIR"/common-proprietary-files.txt
 
