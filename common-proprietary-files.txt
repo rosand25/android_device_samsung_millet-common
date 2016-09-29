@@ -193,9 +193,9 @@ vendor/lib/libWVStreamControlAPI_L1.so
 
 # CNE
 vendor/lib/libcneapiclient.so
-vendor/lib/libcneconn.so
-vendor/lib/libcneqmiutils.so
-vendor/lib/libNimsWrap.so
+#vendor/lib/libcneconn.so
+#vendor/lib/libcneqmiutils.so
+#vendor/lib/libNimsWrap.so
 vendor/lib/libxml.so
 
 # Listen service
