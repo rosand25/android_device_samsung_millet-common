@@ -10,7 +10,9 @@ Memory  | 1.5GB RAM
 Storage | 16GB
 MicroSD | Up to 64GB
 Battery | 6800 mAh
-Display | 10.1"
+Display | 8.0"
 Camera  | 3 MP, 1536 x 2048 pixels
 
-This branch is for building CyanogenMod 14.0 Firmware.
+This branch is for building LineageOS 14.1 Firmware.
+
+DO NOT USE NOT READY YET
